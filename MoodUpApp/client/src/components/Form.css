@@ -1,0 +1,18 @@
+.form-wrapper__show {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.form-wrapper__hidden {
+    display: none;
+}
+
+.form__label {
+    color: var(--ashy);
+    padding-top: .3rem;
+}
+
+.sendEmail {
+    margin-bottom: 2rem;
+}

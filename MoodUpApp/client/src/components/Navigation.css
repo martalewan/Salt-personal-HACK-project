@@ -1,0 +1,20 @@
+.navigation {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: var(--bottle);
+  }
+  
+  .logo {
+    color: var(--creemy);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Antic Didone', serif;
+    font-weight: 800;
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
+  
