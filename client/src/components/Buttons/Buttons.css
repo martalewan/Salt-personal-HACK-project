@@ -1,0 +1,62 @@
+.buttons-wrapper {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-wrapper__button {
+    margin-top: 4rem;
+    width: 100%;
+    padding: 15px 20px;
+    color: var(--ashy);
+    letter-spacing: 1.2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.25s;
+}
+
+.button-wrapper__button:hover {
+    background-color: rgba(255, 255, 255, 0.809);
+    color: var(--dark-bottle);
+}
+
+.button-wrapper__button {
+    background: none;
+    border: .2px solid rgb(194, 199, 184);
+}
+
+.welcome-wrapper__button {
+    margin-top: 4rem;
+    width: 12rem;
+    padding: 15px 0;
+    color: var(--bottle);
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.25s;
+}
+
+.welcome-wrapper__button:hover {
+    background-color: rgb(242, 247, 220);
+    transition: all 0.25s;
+}
+.buttons-wrapper__button--small,
+.button-wrapper__button,
+.welcome-wrapper__button {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.buttons-wrapper__button--small {
+    width: 6.6rem;
+    margin-right: .5rem;
+    margin-top: 2rem;
+    padding: .5rem 0;
+    letter-spacing: 1px;
+    margin-bottom: .5rem;
+}
