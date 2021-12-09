@@ -21,7 +21,7 @@ sgMail.setApiKey(process.env.SENDGRIDAPIKEY);
 //   })
 // })
 
-app.get('/api/motivations', async (req, res) => {
+app.get('/api/motivations', async (req, res) => { 
   // numberOfMotivationsGiven++;
   try {
       res.json({
@@ -36,9 +36,10 @@ app.get('/api/motivations', async (req, res) => {
   res.end();
 })
 
-app.get('/send-email', (req,res) => {
+app.get('/send-email', (req ,res) => {
     
-  const { recipient, sender, topic, text } = req.query; 
+  const { recipient, topic, text } = req.query;
+  console.log(req.query);
 
   const msg = {
       to: recipient, 
